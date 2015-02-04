@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Demo Beacon View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DemoBeaconViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Curtzi Demo Beacon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXT-46-XY7">
+                                <rect key="frame" x="166" y="28" width="269" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xm5-1q-FRu">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1D0-8S-WgS">
+                                <rect key="frame" x="276" y="80" width="51" height="31"/>
+                                <color key="onTintColor" red="0.61916571860000003" green="0.69563287500000004" blue="0.74448823929999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="beaconPowerSwitchDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="YgR-oL-QLw"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jUN-qk-x4c">
+                                <rect key="frame" x="252" y="136" width="96" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mI2-HA-MqD">
+                                <rect key="frame" x="127" y="538" width="347" height="43"/>
+                                <string key="text">Please Note: iOS will only broadcast a Beacon
+while this app is in the foreground</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="0.61916571860000003" green="0.69563287500000004" blue="0.74448823929999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2196078598" green="0.47450983520000001" blue="0.42352944609999998" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mI2-HA-MqD" secondAttribute="bottom" constant="20" id="0ev-d8-BQq"/>
+                            <constraint firstAttribute="centerX" secondItem="jUN-qk-x4c" secondAttribute="centerX" id="2za-he-8Lx"/>
+                            <constraint firstAttribute="centerX" secondItem="mI2-HA-MqD" secondAttribute="centerX" id="5bX-wQ-I3R"/>
+                            <constraint firstAttribute="centerX" secondItem="DXT-46-XY7" secondAttribute="centerX" constant="-0.5" id="6dK-qN-YpU"/>
+                            <constraint firstItem="DXT-46-XY7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="HRi-Mp-i0A"/>
+                            <constraint firstItem="1D0-8S-WgS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="O9w-iG-qhY"/>
+                            <constraint firstAttribute="centerX" secondItem="1D0-8S-WgS" secondAttribute="centerX" constant="-0.5" id="Shm-5W-3as"/>
+                            <constraint firstItem="jUN-qk-x4c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="116" id="Zwo-fF-kjG"/>
+                            <constraint firstItem="DXT-46-XY7" firstAttribute="leading" secondItem="y3c-jy-aDJ" secondAttribute="trailing" constant="-434" id="xKr-yH-ADS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xKr-yH-ADS"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="beaconPowerSwitch" destination="1D0-8S-WgS" id="8MR-h0-iIt"/>
+                        <outlet property="beaconStatusLabel" destination="jUN-qk-x4c" id="K3L-C1-gUu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104" y="430"/>
+        </scene>
+    </scenes>
+</document>

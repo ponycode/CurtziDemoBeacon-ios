@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26738CB1A817D6B0037BDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26738CA1A817D6B0037BDED /* main.m */; };
+		D26738CE1A817D6B0037BDED /* DemoBeaconAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26738CD1A817D6B0037BDED /* DemoBeaconAppDelegate.m */; };
+		D26738D11A817D6B0037BDED /* DemoBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26738D01A817D6B0037BDED /* DemoBeaconViewController.m */; };
+		D26738D41A817D6B0037BDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26738D21A817D6B0037BDED /* Main.storyboard */; };
+		D26738D61A817D6B0037BDED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26738D51A817D6B0037BDED /* Images.xcassets */; };
+		D26738D91A817D6B0037BDED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26738D71A817D6B0037BDED /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D26738C51A817D6B0037BDED /* CurtziDemoBeacon-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CurtziDemoBeacon-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26738C91A817D6B0037BDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26738CA1A817D6B0037BDED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D26738CC1A817D6B0037BDED /* DemoBeaconAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBeaconAppDelegate.h; sourceTree = "<group>"; };
+		D26738CD1A817D6B0037BDED /* DemoBeaconAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBeaconAppDelegate.m; sourceTree = "<group>"; };
+		D26738CF1A817D6B0037BDED /* DemoBeaconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoBeaconViewController.h; sourceTree = "<group>"; };
+		D26738D01A817D6B0037BDED /* DemoBeaconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoBeaconViewController.m; sourceTree = "<group>"; };
+		D26738D31A817D6B0037BDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26738D51A817D6B0037BDED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D26738D81A817D6B0037BDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26738C21A817D6B0037BDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26738BC1A817D6B0037BDED = {
+			isa = PBXGroup;
+			children = (
+				D26738C71A817D6B0037BDED /* CurtziDemoBeacon-iOS */,
+				D26738C61A817D6B0037BDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26738C61A817D6B0037BDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26738C51A817D6B0037BDED /* CurtziDemoBeacon-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26738C71A817D6B0037BDED /* CurtziDemoBeacon-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D26738CC1A817D6B0037BDED /* DemoBeaconAppDelegate.h */,
+				D26738CD1A817D6B0037BDED /* DemoBeaconAppDelegate.m */,
+				D26738CF1A817D6B0037BDED /* DemoBeaconViewController.h */,
+				D26738D01A817D6B0037BDED /* DemoBeaconViewController.m */,
+				D26738D21A817D6B0037BDED /* Main.storyboard */,
+				D26738D51A817D6B0037BDED /* Images.xcassets */,
+				D26738D71A817D6B0037BDED /* LaunchScreen.xib */,
+				D26738C81A817D6B0037BDED /* Supporting Files */,
+			);
+			path = "CurtziDemoBeacon-iOS";
+			sourceTree = "<group>";
+		};
+		D26738C81A817D6B0037BDED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26738C91A817D6B0037BDED /* Info.plist */,
+				D26738CA1A817D6B0037BDED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26738C41A817D6B0037BDED /* CurtziDemoBeacon-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26738E81A817D6B0037BDED /* Build configuration list for PBXNativeTarget "CurtziDemoBeacon-iOS" */;
+			buildPhases = (
+				D26738C11A817D6B0037BDED /* Sources */,
+				D26738C21A817D6B0037BDED /* Frameworks */,
+				D26738C31A817D6B0037BDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurtziDemoBeacon-iOS";
+			productName = "CurtziDemoBeacon-iOS";
+			productReference = D26738C51A817D6B0037BDED /* CurtziDemoBeacon-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26738BD1A817D6B0037BDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Curtzi;
+				TargetAttributes = {
+					D26738C41A817D6B0037BDED = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D26738C01A817D6B0037BDED /* Build configuration list for PBXProject "CurtziDemoBeacon-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26738BC1A817D6B0037BDED;
+			productRefGroup = D26738C61A817D6B0037BDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26738C41A817D6B0037BDED /* CurtziDemoBeacon-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26738C31A817D6B0037BDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26738D41A817D6B0037BDED /* Main.storyboard in Resources */,
+				D26738D91A817D6B0037BDED /* LaunchScreen.xib in Resources */,
+				D26738D61A817D6B0037BDED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26738C11A817D6B0037BDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26738D11A817D6B0037BDED /* DemoBeaconViewController.m in Sources */,
+				D26738CE1A817D6B0037BDED /* DemoBeaconAppDelegate.m in Sources */,
+				D26738CB1A817D6B0037BDED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D26738D21A817D6B0037BDED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26738D31A817D6B0037BDED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26738D71A817D6B0037BDED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26738D81A817D6B0037BDED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26738E61A817D6B0037BDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26738E71A817D6B0037BDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26738E91A817D6B0037BDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CurtziDemoBeacon-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D26738EA1A817D6B0037BDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CurtziDemoBeacon-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26738C01A817D6B0037BDED /* Build configuration list for PBXProject "CurtziDemoBeacon-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26738E61A817D6B0037BDED /* Debug */,
+				D26738E71A817D6B0037BDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26738E81A817D6B0037BDED /* Build configuration list for PBXNativeTarget "CurtziDemoBeacon-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26738E91A817D6B0037BDED /* Debug */,
+				D26738EA1A817D6B0037BDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26738BD1A817D6B0037BDED /* Project object */;
+}
